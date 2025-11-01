@@ -1,6 +1,6 @@
 # RBU AI Assistant
 
-A comprehensive AI-powered chatbot for Regional Benchmark University (RBU) that provides accurate information about university programs, admissions, facilities, and more using a hybrid NLP approach.
+A comprehensive AI-powered chatbot for Ramdeo Baba University (RBU) that provides accurate information about university programs, admissions, facilities, and more using a hybrid NLP approach.
 
 ## Features
 
@@ -163,3 +163,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Uses open-source NLP models from the Hugging Face Transformers library
 
 - Gradio for the interactive chat interface 
+
