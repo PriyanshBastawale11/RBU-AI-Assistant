@@ -158,6 +158,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- The chatbot was developed as a project for Regional Benchmark University
+- The chatbot was developed as a project for RamdeoBaba University
+  
 - Uses open-source NLP models from the Hugging Face Transformers library
+
 - Gradio for the interactive chat interface 
