@@ -1,0 +1,1269 @@
+2025-04-02 18:13:37,461 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 18:13:38,971 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 18:13:38,973 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 18:13:38,974 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-mean-tokens
+2025-04-02 18:19:02,178 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 18:19:02,182 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 18:19:02,755 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-02 18:19:02,757 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-02 18:20:11,037 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:11] "GET / HTTP/1.1" 200 -
+2025-04-02 18:20:11,079 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-02 18:20:11,128 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:11] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 18:20:11,130 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:11] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-02 18:20:23,088 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:23] "GET / HTTP/1.1" 200 -
+2025-04-02 18:20:23,124 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 18:20:23,147 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:23] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 18:20:23,154 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 18:20:38,474 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:38] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:20:38,567 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-02 18:20:43,534 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:20:43] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:21:12,918 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:21:12] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:21:38,832 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:21:38] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:22:28,865 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:22:28] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:43:24,814 - werkzeug - INFO - 192.168.8.29 - - [02/Apr/2025 18:43:24] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:44:48,053 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 18:44:49,167 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 18:44:49,167 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 18:44:49,167 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-mean-tokens
+2025-04-02 18:44:51,648 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:44:51] "GET / HTTP/1.1" 200 -
+2025-04-02 18:44:51,718 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:44:51] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 18:44:51,724 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:44:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-02 18:44:52,034 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:44:52] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-02 18:44:52,642 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 18:44:52,648 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 18:44:53,592 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-02 18:44:53,593 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-02 18:44:56,952 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:44:56] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:44:57,206 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:44:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-02 18:48:13,604 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:48:13] "GET / HTTP/1.1" 200 -
+2025-04-02 18:48:13,644 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:48:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 18:48:13,863 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:48:13] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 18:48:13,947 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:48:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 18:48:28,144 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:48:28] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:51:26,925 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:51:26] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:51:28,913 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:51:28] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:51:29,763 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:51:29] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 18:51:33,066 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:51:33] "GET / HTTP/1.1" 200 -
+2025-04-02 18:51:33,381 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:51:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 18:51:33,423 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:51:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 18:51:33,427 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:51:33] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 18:51:40,945 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:51:40] "[33mGET /gradio HTTP/1.1[0m" 404 -
+2025-04-02 19:01:49,688 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 19:01:51,162 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 19:01:51,164 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 19:01:51,164 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-mean-tokens
+2025-04-02 19:01:53,239 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 19:01:53,241 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 19:04:14,711 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 19:04:15,709 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 19:04:15,709 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 19:04:15,709 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-mean-tokens
+2025-04-02 19:04:17,177 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 19:04:17,177 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 19:07:07,812 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 19:07:09,104 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 19:07:09,120 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 19:07:09,120 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-mean-tokens
+2025-04-02 19:07:10,502 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 19:07:10,504 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 19:08:26,418 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 19:08:27,677 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 19:08:27,679 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 19:08:27,679 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-mean-tokens
+2025-04-02 19:08:29,123 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 19:08:29,123 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 19:08:30,023 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-02 19:08:30,024 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-02 19:08:32,833 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:08:32] "GET / HTTP/1.1" 200 -
+2025-04-02 19:08:32,873 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:08:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 19:08:33,086 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:08:33] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 19:08:33,181 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:08:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 19:08:36,896 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:08:36] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-02 19:09:03,920 - chatbot - INFO - No match found, using fallback response
+2025-04-02 19:09:20,277 - chatbot - INFO - Spell check corrected 'what is the admission procedure in rbu' to 'what is the admission procedure in rub'
+2025-04-02 19:09:20,328 - chatbot - INFO - Semantic match found with confidence 0.78
+2025-04-02 19:09:43,565 - chatbot - INFO - Spell check corrected 'What is the fee structure for MBA program?' to 'That is the fee structure for MBA program?'
+2025-04-02 19:09:43,572 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 19:09:44,812 - chatbot - INFO - Semantic match found with confidence 0.63
+2025-04-02 19:10:03,747 - chatbot - INFO - Spell check corrected 'How can I apply for scholarships at RBU?' to 'Now can I apply for scholarship at RBU?'
+2025-04-02 19:10:03,750 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 19:10:52,627 - chatbot - INFO - Spell check corrected 'What is the fee structure for MBA program?' to 'That is the fee structure for MBA program?'
+2025-04-02 19:10:52,631 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 19:14:53,310 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 19:14:54,396 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 19:14:54,396 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 19:14:54,396 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 19:15:35,693 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 19:15:35,693 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 19:15:38,901 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-02 19:15:38,901 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-02 19:15:41,921 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:15:41] "GET / HTTP/1.1" 200 -
+2025-04-02 19:15:41,957 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:15:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 19:15:42,169 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:15:42] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 19:15:42,282 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:15:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 19:15:45,773 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:15:45] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-02 19:15:53,773 - chatbot - INFO - No match found, using fallback response
+2025-04-02 19:16:04,568 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 19:16:25,147 - chatbot - INFO - Spell check corrected 'What is the fee structure for MBA program?' to 'That is the fee structure for MBA program?'
+2025-04-02 19:16:25,155 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 19:22:09,954 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 19:22:10,920 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 19:22:10,920 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 19:22:10,925 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 19:22:11,728 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 19:22:11,728 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 19:22:14,967 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-02 19:22:14,968 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-02 19:22:17,870 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:22:17] "GET / HTTP/1.1" 200 -
+2025-04-02 19:22:17,903 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:22:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 19:22:18,133 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:22:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 19:22:18,238 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:22:18] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 19:22:20,323 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:22:20] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-02 19:22:27,911 - chatbot - INFO - Spell check corrected 'What clubs and societies are there at RBU?' to 'That clubs and societies are there at RBU?'
+2025-04-02 19:22:27,916 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 19:22:43,551 - chatbot - INFO - Spell check corrected 'How can I apply for scholarships at RBU?' to 'Now can I apply for scholarship at RBU?'
+2025-04-02 19:22:43,553 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 19:23:17,486 - chatbot - INFO - Spell check corrected 'what courses are offered in B tech' to 'what courses are offered in B teach'
+2025-04-02 19:23:17,490 - chatbot - INFO - TF-IDF match found with confidence 0.76
+2025-04-02 19:23:46,415 - chatbot - INFO - TF-IDF match found with confidence 0.70
+2025-04-02 19:23:57,912 - chatbot - INFO - No match found, using fallback response
+2025-04-02 19:26:39,222 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:26:39] "GET / HTTP/1.1" 200 -
+2025-04-02 19:26:39,262 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:26:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 19:26:39,470 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:26:39] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 19:26:39,561 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:26:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 19:26:44,085 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 19:26:44] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-02 19:26:56,577 - chatbot - INFO - TF-IDF match found with confidence 0.40
+2025-04-02 19:27:16,256 - chatbot - INFO - Spell check corrected 'where is rbu located ?' to 'where is rub located ?'
+2025-04-02 19:27:16,295 - chatbot - INFO - Semantic match found with confidence 0.24
+2025-04-02 19:27:22,980 - chatbot - INFO - Spell check corrected 'How can I check my exam results?' to 'Now can I check my exam results?'
+2025-04-02 19:27:22,996 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 19:59:57,187 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 19:59:57,200 - chatbot - INFO - Added 7 additional QA pairs from university information
+2025-04-02 19:59:58,642 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 19:59:58,644 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 19:59:58,644 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-mean-tokens
+2025-04-02 20:00:00,436 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 20:00:00,438 - chatbot - INFO - DistilBERT model loaded successfully
+2025-04-02 20:00:00,933 - app - INFO - Chatbot initialized successfully
+2025-04-02 20:00:04,081 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-02 20:00:04,083 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-02 20:00:07,302 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:00:07] "GET / HTTP/1.1" 200 -
+2025-04-02 20:00:07,354 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:00:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 20:00:07,436 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:00:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 20:00:07,734 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:00:07] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 20:00:12,060 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:00:12] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-02 20:00:25,372 - app - INFO - Received Gradio query: What are the major events organized by RBU?
+2025-04-02 20:00:25,462 - chatbot - INFO - Spell check corrected 'What are the major events organized by RBU?' to 'That are the major events organized by RBU?'
+2025-04-02 20:00:25,528 - chatbot - INFO - Semantic match found with confidence 0.99
+2025-04-02 20:00:25,528 - app - INFO - Response confidence: 0.9903561472892761, source: semantic
+2025-04-02 20:00:38,138 - app - INFO - Received Gradio query: what is the location of the college
+2025-04-02 20:00:38,139 - chatbot - INFO - Semantic match found with confidence 1.00
+2025-04-02 20:00:38,139 - app - INFO - Response confidence: 1.0, source: semantic
+2025-04-02 20:00:48,983 - app - INFO - Received Gradio query: in which city RBU is located
+2025-04-02 20:00:49,087 - chatbot - INFO - Semantic match found with confidence 0.82
+2025-04-02 20:00:49,087 - app - INFO - Response confidence: 0.8220484256744385, source: semantic
+2025-04-02 20:00:55,179 - app - INFO - Received Gradio query: in which city RBU is located
+2025-04-02 20:00:55,270 - chatbot - INFO - Semantic match found with confidence 0.82
+2025-04-02 20:00:55,270 - app - INFO - Response confidence: 0.8220484256744385, source: semantic
+2025-04-02 20:01:05,350 - app - INFO - Received Gradio query: What is the placement record of RBU?
+2025-04-02 20:01:05,387 - chatbot - INFO - Spell check corrected 'What is the placement record of RBU?' to 'That is the placement record of RBU?'
+2025-04-02 20:01:05,387 - chatbot - INFO - Semantic match found with confidence 1.00
+2025-04-02 20:01:05,387 - app - INFO - Response confidence: 1.0, source: semantic
+2025-04-02 20:01:15,805 - app - INFO - Received Gradio query: What is the placement record of RBU?
+2025-04-02 20:01:15,865 - chatbot - INFO - Spell check corrected 'What is the placement record of RBU?' to 'That is the placement record of RBU?'
+2025-04-02 20:01:15,865 - chatbot - INFO - Semantic match found with confidence 1.00
+2025-04-02 20:01:15,865 - app - INFO - Response confidence: 1.0, source: semantic
+2025-04-02 20:01:29,240 - app - INFO - Received Gradio query: tell me the placement stastics 
+2025-04-02 20:01:29,493 - chatbot - INFO - Spell check corrected 'tell me the placement stastics ' to 'tell me the placement tactics '
+2025-04-02 20:01:29,493 - chatbot - INFO - Semantic match found with confidence 1.00
+2025-04-02 20:01:29,495 - app - INFO - Response confidence: 1.0, source: semantic
+2025-04-02 20:08:35,470 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-02 20:08:36,524 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-02 20:08:36,524 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-02 20:08:36,524 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 20:08:37,339 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-02 20:08:37,339 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-02 20:08:40,544 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-02 20:08:40,546 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-02 20:08:43,414 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:08:43] "GET / HTTP/1.1" 200 -
+2025-04-02 20:08:43,450 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:08:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 20:08:43,664 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:08:43] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-02 20:08:43,767 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:08:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 20:09:58,706 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 20:09:58] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-02 20:10:10,469 - chatbot - INFO - Spell check corrected 'How to contact the admissions office?' to 'Now to contact the admission office?'
+2025-04-02 20:10:10,600 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 20:10:23,815 - chatbot - INFO - Spell check corrected 'How can I check my exam results?' to 'Now can I check my exam results?'
+2025-04-02 20:10:23,819 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-02 20:10:46,970 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-03 01:52:00,046 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 01:52:01,149 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 01:52:01,149 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-03 01:52:01,154 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 01:52:02,236 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-03 01:52:02,236 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-03 01:52:05,491 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 01:52:05,494 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 01:52:08,782 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:08] "GET / HTTP/1.1" 200 -
+2025-04-03 01:52:08,827 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 01:52:09,165 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:09] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 01:52:09,204 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 01:52:11,687 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:11] "GET / HTTP/1.1" 200 -
+2025-04-03 01:52:11,931 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 01:52:11,950 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:11] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 01:52:12,084 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 01:52:15,743 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:52:15] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 01:53:03,744 - chatbot - INFO - TF-IDF match found with confidence 0.40
+2025-04-03 01:53:15,255 - chatbot - INFO - Spell check corrected 'Location of RBU ' to 'Vocation of RBU '
+2025-04-03 01:53:15,261 - chatbot - INFO - TF-IDF match found with confidence 0.40
+2025-04-03 01:53:24,212 - chatbot - INFO - Spell check corrected 'What is the procedure for hostel allocation?' to 'That is the procedure for hostel allocation?'
+2025-04-03 01:53:24,220 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-03 01:53:32,630 - chatbot - INFO - Spell check corrected 'What is the placement record of RBU?' to 'That is the placement record of RBU?'
+2025-04-03 01:53:32,636 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-03 01:53:50,792 - chatbot - INFO - TF-IDF match found with confidence 0.40
+2025-04-03 01:53:55,042 - chatbot - INFO - Spell check corrected 'ajfn' to 'an'
+2025-04-03 01:53:55,382 - chatbot - INFO - Semantic match found with confidence 0.22
+2025-04-03 01:54:07,687 - chatbot - INFO - Spell check corrected 'placement stastics of rbu' to 'placement tactics of rub'
+2025-04-03 01:54:07,692 - chatbot - INFO - TF-IDF match found with confidence 0.67
+2025-04-03 01:54:26,101 - chatbot - INFO - Spell check corrected 'top recruiters of RBU' to 'top recruits of RBU'
+2025-04-03 01:54:26,106 - chatbot - INFO - TF-IDF match found with confidence 0.40
+2025-04-03 01:55:19,976 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 01:55:21,011 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 01:55:21,013 - chatbot - INFO - Loading Sentence Transformer model...
+2025-04-03 01:55:21,013 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 01:55:21,826 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-03 01:55:21,826 - chatbot - INFO - Sentence Transformer model loaded successfully.
+2025-04-03 01:55:25,094 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 01:55:25,096 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 01:55:28,018 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:55:28] "GET / HTTP/1.1" 200 -
+2025-04-03 01:55:28,189 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:55:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 01:55:28,231 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:55:28] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 01:55:28,615 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:55:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 01:55:37,821 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 01:55:37] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 01:55:55,123 - chatbot - INFO - TF-IDF match found with confidence 0.40
+2025-04-03 01:56:05,329 - chatbot - INFO - Spell check corrected 'What sports facilities are available at RBU?' to 'That sports facilities are available at RBU?'
+2025-04-03 01:56:05,329 - chatbot - INFO - TF-IDF match found with confidence 1.00
+2025-04-03 01:56:29,527 - chatbot - INFO - Spell check corrected 'what is the percentage criteria required ' to 'what is the percentage criterion required '
+2025-04-03 01:56:29,530 - chatbot - INFO - TF-IDF match found with confidence 0.62
+2025-04-03 01:56:43,070 - chatbot - INFO - TF-IDF match found with confidence 0.67
+2025-04-03 01:57:07,114 - chatbot - INFO - Spell check corrected 'what is the fullform of rbu' to 'what is the fusiform of rub'
+2025-04-03 01:57:07,180 - chatbot - INFO - No match found, using fallback response
+2025-04-03 01:57:24,730 - chatbot - INFO - No match found, using fallback response
+2025-04-03 01:57:36,362 - chatbot - INFO - Spell check corrected 'what is most famous thing about rbu' to 'what is most famous thing about rub'
+2025-04-03 01:57:36,391 - chatbot - INFO - Semantic match found with confidence 0.23
+2025-04-03 01:57:55,766 - chatbot - INFO - TF-IDF match found with confidence 0.48
+2025-04-03 15:56:36,356 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 15:56:38,807 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 15:56:38,807 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 15:56:40,010 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 15:56:40,010 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 15:56:40,011 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 15:56:55,245 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 15:56:58,967 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 15:56:58,971 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 15:57:06,049 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:57:06] "GET / HTTP/1.1" 200 -
+2025-04-03 15:57:08,519 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:57:08] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 15:57:08,523 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:57:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 15:57:08,722 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:57:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 15:57:28,673 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 15:57:28] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 15:57:38,536 - chatbot - INFO - Spell check corrected 'Does RBU offer any online courses?' to 'Does Camden Papa University offer any online courses?'
+2025-04-03 15:57:38,752 - chatbot - INFO - Expanded query: 'Does Camden Papa University offer any online courses?' to 'Does Camden Papa University offer any online courses? Camden dada daddy institution college tender provide on-line course of study class'
+2025-04-03 15:57:39,853 - chatbot - INFO - Hybrid search: Both methods matched the same question with confidences TF-IDF:0.76, Semantic:0.93
+2025-04-03 15:57:39,854 - chatbot - INFO - Hybrid match found with confidence 0.93
+2025-04-03 15:58:00,336 - chatbot - INFO - Expanded query: 'hello' to 'hello how-do-you-do howdy'
+2025-04-03 15:58:00,422 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.56
+2025-04-03 15:58:00,423 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 15:58:08,927 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.56
+2025-04-03 15:58:08,927 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 15:58:17,575 - chatbot - INFO - Spell check corrected 'gksendgkjnsklerjnglakjeglabaljegb aljegnlajeg ' to 'gksendgkjnsklerjnglakjeglabaljegb aljegnlajeg'
+2025-04-03 15:58:17,628 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.54
+2025-04-03 15:58:17,628 - chatbot - INFO - Hybrid match found with confidence 0.54
+2025-04-03 15:58:20,763 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.57
+2025-04-03 15:58:20,763 - chatbot - INFO - Hybrid match found with confidence 0.57
+2025-04-03 15:58:21,902 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.57
+2025-04-03 15:58:21,902 - chatbot - INFO - Hybrid match found with confidence 0.57
+2025-04-03 15:58:23,069 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.57
+2025-04-03 15:58:23,069 - chatbot - INFO - Hybrid match found with confidence 0.57
+2025-04-03 15:58:25,623 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.55
+2025-04-03 15:58:25,623 - chatbot - INFO - Hybrid match found with confidence 0.55
+2025-04-03 15:58:27,953 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.56
+2025-04-03 15:58:27,961 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 15:58:29,724 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.56
+2025-04-03 15:58:29,724 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 15:59:04,445 - chatbot - INFO - Expanded query: 'where is the college situated' to 'where is the college situated locate deposit'
+2025-04-03 15:59:04,500 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.57
+2025-04-03 15:59:04,500 - chatbot - INFO - Hybrid match found with confidence 0.57
+2025-04-03 15:59:14,949 - chatbot - INFO - Spell check corrected 'what is the location of the college ' to 'what is the location of the college'
+2025-04-03 15:59:14,957 - chatbot - INFO - Expanded query: 'what is the location of the college' to 'what is the location of the college positioning position'
+2025-04-03 15:59:15,029 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.57
+2025-04-03 15:59:15,029 - chatbot - INFO - Hybrid match found with confidence 0.57
+2025-04-03 15:59:45,653 - chatbot - INFO - Spell check corrected 'what knowledge can you provide ' to 'what knowledge can you provide'
+2025-04-03 15:59:45,675 - chatbot - INFO - Expanded query: 'what knowledge can you provide' to 'what knowledge can you provide noesis cognition bring home the bacon cater'
+2025-04-03 15:59:45,772 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.17, Semantic:0.57
+2025-04-03 15:59:45,772 - chatbot - INFO - Hybrid match found with confidence 0.57
+2025-04-03 15:59:59,288 - chatbot - INFO - Spell check corrected 'what companies do visit in RBU' to 'what companies do visit in Camden Papa University'
+2025-04-03 15:59:59,304 - chatbot - INFO - Expanded query: 'what companies do visit in Camden Papa University' to 'what companies do visit in Camden Papa University society troupe confab call in Camden dada daddy institution college'
+2025-04-03 15:59:59,372 - chatbot - INFO - Hybrid search: Both methods matched the same question with confidences TF-IDF:0.65, Semantic:0.91
+2025-04-03 15:59:59,372 - chatbot - INFO - Hybrid match found with confidence 0.91
+2025-04-03 16:00:28,967 - chatbot - INFO - Spell check corrected 'are there any sports facilities available in RBU' to 'are there any sports facilities available in Camden Papa University'
+2025-04-03 16:00:28,988 - chatbot - INFO - Expanded query: 'are there any sports facilities available in Camden Papa University' to 'are there any sports facilities available in Camden Papa University boast gambol adeptness quickness useable uncommitted Camden dada daddy institution college'
+2025-04-03 16:00:29,075 - chatbot - INFO - Hybrid search: Both methods matched the same question with confidences TF-IDF:0.83, Semantic:0.90
+2025-04-03 16:00:29,075 - chatbot - INFO - Hybrid match found with confidence 0.90
+2025-04-03 16:00:46,149 - chatbot - INFO - Spell check corrected 'does RBU offer summer holidays'' to 'does Camden Papa University offer summer holidays''
+2025-04-03 16:00:46,157 - chatbot - INFO - Expanded query: 'does Camden Papa University offer summer holidays'' to 'does Camden Papa University offer summer holidays' Camden dada daddy institution college tender provide summertime vacation holiday'
+2025-04-03 16:00:46,223 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.19, Semantic:0.54
+2025-04-03 16:00:46,223 - chatbot - INFO - Hybrid match found with confidence 0.54
+2025-04-03 16:01:40,156 - chatbot - INFO - Spell check corrected 'is there a canteen available in RBU' to 'is there a canteen available in Camden Papa University'
+2025-04-03 16:01:40,161 - chatbot - INFO - Expanded query: 'is there a canteen available in Camden Papa University' to 'is there a canteen available in Camden Papa University mobile canteen useable uncommitted Camden dada daddy institution college'
+2025-04-03 16:01:40,228 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.23, Semantic:0.54
+2025-04-03 16:01:40,228 - chatbot - INFO - Hybrid match found with confidence 0.54
+2025-04-03 16:01:55,547 - chatbot - INFO - Spell check corrected 'does RBU has mess available ?' to 'does Camden Papa University has mess available ?'
+2025-04-03 16:01:55,554 - chatbot - INFO - Expanded query: 'does Camden Papa University has mess available ?' to 'does Camden Papa University has mess available ? Camden dada daddy institution college mess up sight useable uncommitted'
+2025-04-03 16:01:55,604 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.23, Semantic:0.53
+2025-04-03 16:01:55,604 - chatbot - INFO - Hybrid match found with confidence 0.53
+2025-04-03 16:02:10,179 - chatbot - INFO - Spell check corrected 'what are the programs offered in RBU' to 'what are the programs offered in Camden Papa University'
+2025-04-03 16:02:10,191 - chatbot - INFO - Expanded query: 'what are the programs offered in Camden Papa University' to 'what are the programs offered in Camden Papa University platform programme tender provide Camden dada daddy institution college'
+2025-04-03 16:02:10,234 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.25, Semantic:0.56
+2025-04-03 16:02:10,234 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 16:02:22,517 - chatbot - INFO - Spell check corrected 'tell me about all the programs ' to 'tell me about all the programs'
+2025-04-03 16:02:22,535 - chatbot - INFO - Expanded query: 'tell me about all the programs' to 'tell me about all the programs assure recite platform programme'
+2025-04-03 16:02:22,597 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.16, Semantic:0.57
+2025-04-03 16:02:22,598 - chatbot - INFO - Hybrid match found with confidence 0.57
+2025-04-03 16:02:33,442 - chatbot - INFO - Expanded query: 'what courses are available' to 'what courses are available course of study class useable uncommitted'
+2025-04-03 16:02:33,520 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.17, Semantic:0.56
+2025-04-03 16:02:33,520 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 16:36:12,174 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 16:36:13,317 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 16:36:13,317 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 16:36:14,048 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 16:36:14,051 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 16:36:14,051 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 16:36:16,279 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 16:36:19,421 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 16:36:19,424 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 16:36:22,652 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:36:22] "GET / HTTP/1.1" 200 -
+2025-04-03 16:36:22,690 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:36:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 16:36:22,921 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:36:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 16:36:23,024 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:36:23] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 16:36:44,560 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:36:44] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 16:36:56,542 - chatbot - INFO - Spell check corrected 'What are the admission requirements for B.Tech?' to 'That are the admission requirements for B.Lech?'
+2025-04-03 16:36:56,721 - chatbot - INFO - Expanded query: 'That are the admission requirements for B.Lech?' to 'That are the admission requirements for B.Lech? admission charge accession demand necessity'
+2025-04-03 16:36:57,419 - chatbot - INFO - Hybrid search: Both methods matched the same question with confidences TF-IDF:0.74, Semantic:0.96
+2025-04-03 16:36:57,419 - chatbot - INFO - Hybrid match found with confidence 0.96
+2025-04-03 16:37:12,401 - chatbot - INFO - Expanded query: 'is there any hostel facilities near' to 'is there any hostel facilities near lodge hostelry deftness installation approach virtually'
+2025-04-03 16:37:12,503 - chatbot - INFO - Hybrid search: Both methods matched the same question with confidences TF-IDF:0.58, Semantic:0.90
+2025-04-03 16:37:12,503 - chatbot - INFO - Hybrid match found with confidence 0.90
+2025-04-03 16:37:25,672 - chatbot - INFO - Spell check corrected 'what is the fees structure for B tech' to 'what is the fees structure for B teach'
+2025-04-03 16:37:25,710 - chatbot - INFO - Expanded query: 'what is the fees structure for B teach' to 'what is the fees structure for B teach bung social structure complex body part Edward Teach instruct'
+2025-04-03 16:37:25,879 - chatbot - INFO - Hybrid search: Both methods matched the same question with confidences TF-IDF:0.71, Semantic:0.94
+2025-04-03 16:37:25,879 - chatbot - INFO - Hybrid match found with confidence 0.94
+2025-04-03 16:37:43,183 - chatbot - INFO - Spell check corrected 'i want fees for B tech' to 'i want fees for B teach'
+2025-04-03 16:37:43,208 - chatbot - INFO - Expanded query: 'i want fees for B teach' to 'i want fees for B teach lack wish bung Edward Teach instruct'
+2025-04-03 16:37:43,384 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.21, Semantic:0.57
+2025-04-03 16:37:43,384 - chatbot - INFO - Hybrid match found with confidence 0.57
+2025-04-03 16:38:02,183 - chatbot - INFO - Spell check corrected 'who is the principal of RBU' to 'who is the principal of Camden Papa University'
+2025-04-03 16:38:02,206 - chatbot - INFO - Expanded query: 'who is the principal of Camden Papa University' to 'who is the principal of Camden Papa University chief main Camden pappa daddy college institution'
+2025-04-03 16:38:02,379 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.21, Semantic:0.56
+2025-04-03 16:38:02,379 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 16:56:07,827 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 16:56:09,146 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 16:56:09,146 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 16:56:09,902 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 16:56:09,902 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 16:56:09,904 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 16:56:12,802 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 16:56:15,929 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 16:56:15,930 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 16:56:19,147 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:56:19] "GET / HTTP/1.1" 200 -
+2025-04-03 16:56:19,242 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:56:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 16:56:19,383 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:56:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 16:56:19,570 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:56:19] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 16:56:23,306 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 16:56:23] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 16:56:29,658 - chatbot - INFO - Expanded query: 'hello' to 'hello hullo how-do-you-do'
+2025-04-03 16:56:29,973 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.56
+2025-04-03 16:56:29,975 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 16:56:40,711 - chatbot - INFO - Expanded query: 'Are there any foreign exchange programs available?' to 'Are there any foreign exchange programs available? extraneous strange commute interchange platform program uncommitted usable'
+2025-04-03 16:56:41,937 - chatbot - INFO - Hybrid search: Both methods matched the same question with confidences TF-IDF:0.96, Semantic:0.95
+2025-04-03 16:56:41,939 - chatbot - INFO - Hybrid match found with confidence 0.96
+2025-04-03 16:56:54,311 - chatbot - INFO - Spell check corrected 'who is the principal of RBu' to 'who is the principal of Camden Papa University'
+2025-04-03 16:56:54,321 - chatbot - INFO - Expanded query: 'who is the principal of Camden Papa University' to 'who is the principal of Camden Papa University corpus head teacher Camden pappa daddy college institution'
+2025-04-03 16:56:54,430 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.22, Semantic:0.56
+2025-04-03 16:56:54,433 - chatbot - INFO - Hybrid match found with confidence 0.56
+2025-04-03 16:57:07,891 - chatbot - INFO - Expanded query: 'who is the HOD of CSE department ?' to 'who is the HOD of CSE department ? section'
+2025-04-03 16:57:07,998 - chatbot - INFO - Hybrid search: Only Semantic matched with weighted score 0.58
+2025-04-03 16:57:07,998 - chatbot - INFO - Hybrid match found with confidence 0.58
+2025-04-03 16:57:40,671 - chatbot - INFO - Spell check corrected 'is there any entrepreneurship cell in RBU' to 'is there any entrepreneurship cell in Camden Papa University'
+2025-04-03 16:57:40,675 - chatbot - INFO - Expanded query: 'is there any entrepreneurship cell in Camden Papa University' to 'is there any entrepreneurship cell in Camden Papa University cellular phone cellphone Camden pappa daddy college institution'
+2025-04-03 16:57:40,801 - chatbot - INFO - Hybrid search: Methods matched different questions with weighted scores TF-IDF:0.22, Semantic:0.53
+2025-04-03 16:57:40,801 - chatbot - INFO - Hybrid match found with confidence 0.53
+2025-04-03 17:04:41,857 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 17:04:44,154 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 17:04:44,156 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 17:04:44,995 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 17:04:44,996 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 17:04:44,996 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 17:04:47,319 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 17:04:50,413 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 17:04:50,415 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 17:04:53,589 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:04:53] "GET / HTTP/1.1" 200 -
+2025-04-03 17:04:53,642 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:04:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 17:04:53,842 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:04:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 17:04:53,955 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:04:53] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 17:05:09,808 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:05:09] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 17:08:20,942 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 17:08:22,209 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 17:08:22,210 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 17:08:22,894 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 17:08:22,895 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 17:08:22,895 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 17:08:25,470 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 17:08:28,577 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 17:08:28,578 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 17:08:31,620 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:08:31] "GET / HTTP/1.1" 200 -
+2025-04-03 17:08:31,667 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:08:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 17:08:31,873 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:08:31] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 17:08:31,980 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:08:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 17:08:35,413 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:08:35] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 17:08:51,899 - chatbot - INFO - Expanded query: 'check exam result' to 'check exam result moderate stay test examination answer outcome'
+2025-04-03 17:09:28,188 - chatbot - INFO - Expanded query: 'course offer MBA' to 'course offer MBA class naturally fling pop the question'
+2025-04-03 17:31:49,902 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 17:31:49,911 - chatbot - INFO - Extracted 1617 data points for direct search
+2025-04-03 17:31:51,111 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 17:31:51,111 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 17:31:51,854 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 17:31:51,861 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 17:31:51,861 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 17:31:54,609 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 17:31:57,737 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 17:31:57,739 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 17:32:00,842 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:32:00] "GET / HTTP/1.1" 200 -
+2025-04-03 17:32:00,876 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:32:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 17:32:01,112 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:32:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 17:32:01,209 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:32:01] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 17:32:05,567 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:32:05] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 17:54:46,552 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 17:54:46,557 - chatbot - INFO - Extracted 1617 data points for direct search
+2025-04-03 17:54:47,983 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 17:54:47,983 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 17:54:48,555 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 17:54:48,556 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 17:54:48,556 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 17:54:51,077 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 17:54:54,166 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 17:54:54,169 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 17:54:57,364 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:54:57] "GET / HTTP/1.1" 200 -
+2025-04-03 17:54:57,482 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:54:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 17:54:57,549 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:54:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 17:54:57,800 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:54:57] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 17:55:04,685 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 17:55:04] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 18:16:53,630 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 18:16:54,956 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 18:16:54,956 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 18:16:55,694 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 18:16:55,694 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 18:16:55,694 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 18:16:58,334 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 18:17:01,889 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 18:17:01,892 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 18:17:04,884 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:17:04] "GET / HTTP/1.1" 200 -
+2025-04-03 18:17:04,941 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:17:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 18:17:05,164 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:17:05] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 18:17:05,251 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:17:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 18:17:11,913 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:17:11] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 18:31:48,841 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 18:31:50,391 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 18:31:50,391 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 18:31:51,323 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 18:31:51,323 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 18:31:51,323 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 18:31:54,961 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 18:31:58,195 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 18:31:58,196 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 18:32:01,443 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:32:01] "GET / HTTP/1.1" 200 -
+2025-04-03 18:32:01,514 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:32:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 18:32:01,698 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:32:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 18:32:01,846 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:32:01] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 18:32:03,431 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:32:03] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 18:37:38,013 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 18:37:41,582 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 18:37:41,582 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 18:37:42,848 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 18:37:42,852 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 18:37:42,852 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 18:37:45,777 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 18:38:54,285 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 18:38:57,167 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 18:38:57,167 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 18:38:58,367 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 18:38:58,388 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 18:38:58,389 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 18:39:02,338 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 18:48:15,464 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 18:48:16,929 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 18:48:16,929 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 18:48:18,094 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 18:48:18,096 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 18:48:18,096 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 18:48:21,160 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 18:48:24,331 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 18:48:24,333 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 18:48:27,416 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:48:27] "GET / HTTP/1.1" 200 -
+2025-04-03 18:48:27,507 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:48:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 18:48:27,629 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:48:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 18:48:27,852 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:48:27] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 18:48:30,796 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 18:48:30] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 19:17:25,384 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 19:17:27,816 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 19:17:27,816 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 19:17:28,621 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 19:17:28,622 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 19:17:28,622 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 19:17:32,014 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 19:18:49,377 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 19:18:51,699 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 19:18:51,699 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 19:18:52,778 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 19:18:52,787 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 19:18:52,787 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 19:18:56,271 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 19:20:32,257 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 19:20:34,500 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 19:20:34,500 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 19:20:35,424 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 19:20:35,426 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 19:20:35,426 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 19:20:38,768 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 19:22:52,368 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 19:22:54,628 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 19:22:54,630 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 19:22:56,707 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 19:22:56,707 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 19:22:56,707 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 19:23:00,553 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 19:23:09,291 - __main__ - INFO - TF-IDF confidence: 0.0
+2025-04-03 19:23:09,291 - __main__ - INFO - Semantic confidence: 0.9454692006111145
+2025-04-03 19:23:09,291 - __main__ - INFO - Structured data confidence: 0.8
+2025-04-03 19:24:13,428 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 19:24:15,848 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 19:24:15,848 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 19:24:16,766 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 19:24:16,768 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 19:24:16,768 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 19:24:20,478 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 19:24:27,986 - __main__ - INFO - TF-IDF confidence: 0.0
+2025-04-03 19:24:27,987 - __main__ - INFO - Semantic confidence: 0.9454692006111145
+2025-04-03 19:24:27,988 - __main__ - INFO - Structured data confidence: 0.8
+2025-04-03 19:25:57,844 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 19:25:59,306 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 19:25:59,306 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 19:25:59,961 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 19:25:59,963 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 19:25:59,964 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 19:26:03,213 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 19:26:06,315 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 19:26:06,318 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 19:26:09,353 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 19:26:09] "GET / HTTP/1.1" 200 -
+2025-04-03 19:26:09,458 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 19:26:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 19:26:09,609 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 19:26:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 19:26:09,811 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 19:26:09] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 19:26:11,882 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 19:26:11] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 19:27:57,933 - chatbot - INFO - TF-IDF confidence: 0.9860579185794318
+2025-04-03 19:27:57,944 - chatbot - INFO - Semantic confidence: 0.8645067811012268
+2025-04-03 19:27:57,954 - chatbot - INFO - Structured data confidence: 0.0
+2025-04-03 22:41:20,569 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 22:41:22,423 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 22:41:22,423 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 22:41:23,487 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 22:41:23,489 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 22:41:23,489 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 22:41:26,023 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 22:41:29,253 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 22:41:29,254 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 22:41:32,669 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 22:41:32] "GET / HTTP/1.1" 200 -
+2025-04-03 22:41:32,789 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 22:41:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 22:41:32,839 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 22:41:32] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 22:41:33,107 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 22:41:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 22:41:35,217 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 22:41:35] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 23:05:26,579 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 23:05:29,383 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 23:05:29,385 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 23:05:30,668 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 23:05:30,670 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 23:05:30,670 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 23:05:35,196 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 23:05:42,404 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 23:05:45,620 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 23:05:45,625 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 23:05:47,014 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-03 23:05:47,016 - __main__ - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 23:05:47,018 - __main__ - INFO - Loading DistilBERT model...
+2025-04-03 23:05:49,815 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-03 23:14:09,345 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 23:14:10,705 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 23:14:10,707 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 23:14:11,398 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 23:14:11,398 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 23:14:11,398 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 23:14:14,957 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 23:14:18,111 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 23:14:18,113 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 23:14:21,717 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:14:21] "GET / HTTP/1.1" 200 -
+2025-04-03 23:14:21,796 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:14:21] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 23:14:21,796 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:14:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 23:14:22,096 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:14:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 23:14:29,254 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:14:29] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-03 23:26:22,606 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-03 23:26:24,208 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-03 23:26:24,208 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-03 23:26:25,058 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-03 23:26:25,059 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-03 23:26:25,059 - chatbot - INFO - Loading DistilBERT model...
+2025-04-03 23:26:28,129 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-03 23:26:31,237 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-03 23:26:31,261 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-03 23:26:34,330 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:26:34] "GET / HTTP/1.1" 200 -
+2025-04-03 23:26:34,368 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:26:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-03 23:26:34,600 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:26:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-03 23:26:34,685 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:26:34] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-03 23:26:36,988 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 23:26:36] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 00:43:24,217 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 00:43:25,544 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 00:43:25,544 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 00:43:26,156 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 00:43:26,156 - chatbot - INFO - Word embeddings file not found. Skipping word embeddings.
+2025-04-04 00:43:26,156 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 00:43:29,433 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 00:43:32,618 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 00:43:32,620 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 00:43:35,819 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 00:43:35] "GET / HTTP/1.1" 200 -
+2025-04-04 00:43:35,890 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 00:43:35] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 00:43:36,077 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 00:43:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 00:43:36,214 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 00:43:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 01:02:50,756 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 01:02:52,147 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 01:02:52,150 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 01:02:53,136 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 01:02:53,136 - chatbot - INFO - Loading word embeddings...
+2025-04-04 01:02:53,136 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 01:02:53,326 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 01:02:55,123 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T01:02:55.080186', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 01:02:55,127 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 01:02:55,127 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 01:02:57,649 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 01:03:00,767 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 01:03:00,771 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 01:03:04,233 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:03:04] "GET / HTTP/1.1" 200 -
+2025-04-04 01:03:04,296 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:03:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 01:03:04,466 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:03:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 01:03:04,610 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:03:04] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 01:03:53,998 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:03:53] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 01:12:35,915 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 01:12:37,821 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 01:12:37,821 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 01:12:38,839 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 01:12:38,842 - chatbot - INFO - Loading word embeddings...
+2025-04-04 01:12:38,842 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 01:12:39,053 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 01:12:40,553 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T01:12:40.383955', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 01:12:40,553 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 01:12:40,553 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 01:12:43,372 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 01:12:46,489 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 01:12:46,491 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 01:12:49,958 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:12:49] "GET / HTTP/1.1" 200 -
+2025-04-04 01:12:50,006 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:12:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 01:12:50,216 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:12:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 01:12:50,331 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:12:50] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 01:12:54,159 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:12:54] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 01:53:13,189 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 01:53:14,375 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 01:53:14,376 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 01:53:15,135 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 01:53:15,135 - chatbot - INFO - Loading word embeddings...
+2025-04-04 01:53:15,139 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 01:53:15,324 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 01:53:17,344 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T01:53:17.284582', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 01:53:17,347 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 01:53:17,347 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 01:53:20,504 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 01:53:23,624 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 01:53:23,625 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 01:53:26,590 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:53:26] "GET / HTTP/1.1" 200 -
+2025-04-04 01:53:26,640 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:53:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 01:53:26,804 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:53:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 01:53:26,959 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:53:26] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 01:53:28,685 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 01:53:28] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 02:06:13,859 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 02:06:14,889 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 02:06:14,889 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 02:06:15,483 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 02:06:15,483 - chatbot - INFO - Loading word embeddings...
+2025-04-04 02:06:15,483 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 02:06:15,611 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 02:06:16,381 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T02:06:16.364284', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 02:06:16,388 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 02:06:16,388 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 02:06:19,062 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 02:06:22,217 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 02:06:22,219 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 02:06:25,922 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 02:06:25] "GET / HTTP/1.1" 200 -
+2025-04-04 02:06:26,087 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 02:06:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 02:06:26,392 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 02:06:26] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 02:06:26,394 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 02:06:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 02:06:29,623 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 02:06:29] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 11:04:50,408 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 11:04:52,006 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 11:04:52,006 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 11:04:52,912 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 11:04:52,915 - chatbot - INFO - Loading word embeddings...
+2025-04-04 11:04:52,917 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 11:04:53,178 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 11:04:54,271 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T11:04:54.225772', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 11:04:54,273 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 11:04:54,273 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 11:04:56,721 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 11:04:59,836 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 11:04:59,836 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 11:05:03,381 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:05:03] "GET / HTTP/1.1" 200 -
+2025-04-04 11:05:04,008 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:05:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 11:05:04,043 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:05:04] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 11:05:04,043 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:05:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 11:05:41,332 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:05:41] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 11:48:51,617 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 11:48:53,122 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 11:48:53,122 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 11:48:53,833 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 11:48:53,834 - chatbot - INFO - Loading word embeddings...
+2025-04-04 11:48:53,834 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 11:48:54,014 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 11:48:54,782 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T11:48:54.764194', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 11:48:54,782 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 11:48:54,782 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 11:48:58,161 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 11:49:01,283 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 11:49:01,285 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 11:49:04,053 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:49:04] "GET / HTTP/1.1" 200 -
+2025-04-04 11:49:04,098 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:49:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 11:49:04,312 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:49:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 11:49:04,409 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:49:04] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 11:49:06,063 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 11:49:06] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 11:59:56,268 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 11:59:57,461 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 11:59:57,461 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 11:59:58,016 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 11:59:58,016 - __main__ - INFO - Loading word embeddings...
+2025-04-04 11:59:58,016 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 11:59:58,183 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 12:00:00,074 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T12:00:00.014223', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 12:00:00,074 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 12:00:00,075 - __main__ - INFO - Loading DistilBERT model...
+2025-04-04 12:00:03,886 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-04 12:00:04,197 - __main__ - INFO - Cosine Similarities: [0.9105947  0.9376443  0.9226737  0.922472   0.9023012  0.9041103
+ 0.9095226  0.88136405 0.8945366  0.9038421  0.9185256  0.90582746
+ 0.92134464 0.9284087  0.92286503 0.90012765 0.9248296  0.9157264
+ 0.92688763 0.92179644 0.9252533  0.9330993  0.9293005  0.9106064
+ 0.9244374  0.92636985 0.93019336 0.89123654 0.90450656 0.934556  ]
+2025-04-04 12:00:04,197 - __main__ - INFO - SerpAPI key not configured. Skipping SerpAPI.
+2025-04-04 12:00:04,346 - __main__ - INFO - Cosine Similarities: [0.8628832  0.8524975  0.8550679  0.86124426 0.82177085 0.8393342
+ 0.82664615 0.8569633  0.84427905 0.871085   0.8454954  0.8534539
+ 0.826012   0.82627153 0.8418182  0.8321708  0.83173794 0.82851565
+ 0.83479965 0.8275054  0.833692   0.8177457  0.820542   0.8379486
+ 0.8429691  0.8458056  0.81629944 0.81636316 0.84906346 0.8094766 ]
+2025-04-04 12:00:04,694 - __main__ - INFO - Cosine Similarities: [0.85355246 0.8525846  0.8629996  0.8723764  0.84180754 0.8530269
+ 0.8463597  0.87341905 0.8775021  0.88151777 0.87424856 0.8719416
+ 0.8273159  0.843245   0.8450831  0.8486585  0.8399215  0.8368224
+ 0.8336892  0.83908105 0.83628684 0.833133   0.8249183  0.8552048
+ 0.8558195  0.8566599  0.8267961  0.8410779  0.87148595 0.8158915 ]
+2025-04-04 12:00:04,696 - __main__ - INFO - SerpAPI key not configured. Skipping SerpAPI.
+2025-04-04 12:00:04,918 - __main__ - INFO - Cosine Similarities: [0.8675882  0.8543587  0.8710706  0.87557334 0.83212614 0.8425093
+ 0.8376966  0.8721299  0.8581438  0.8824058  0.85011256 0.861846
+ 0.8335823  0.835157   0.83713496 0.83694756 0.8291545  0.82997644
+ 0.8218715  0.8165381  0.8308811  0.8368989  0.8226409  0.8434569
+ 0.84416866 0.84623116 0.8190913  0.8211485  0.86095333 0.8127326 ]
+2025-04-04 12:00:05,107 - __main__ - INFO - Cosine Similarities: [0.901451   0.90125114 0.90843254 0.91212404 0.8735679  0.888025
+ 0.8787625  0.89474857 0.88544124 0.9058079  0.8853997  0.91799927
+ 0.8728449  0.8790984  0.8958557  0.88623905 0.88677084 0.87818855
+ 0.87098575 0.8720192  0.8834702  0.8741601  0.8723272  0.8953695
+ 0.8990847  0.8988543  0.87198454 0.8683202  0.8975999  0.8633748 ]
+2025-04-04 12:29:40,677 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 12:29:42,476 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 12:29:42,476 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 12:29:43,203 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 12:29:43,203 - __main__ - INFO - Loading word embeddings...
+2025-04-04 12:29:43,205 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 12:29:43,392 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 12:29:44,316 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T12:29:44.254941', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 12:29:44,316 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 12:29:44,317 - __main__ - INFO - Loading DistilBERT model...
+2025-04-04 12:29:47,410 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-04 12:29:47,496 - __main__ - INFO - Cosine Similarities: [0.9105947  0.9376443  0.9226737  0.922472   0.9023012  0.9041103
+ 0.9095226  0.88136405 0.8945366  0.9038421  0.9185256  0.90582746
+ 0.92134464 0.9284087  0.92286503 0.90012765 0.9248296  0.9157264
+ 0.92688763 0.92179644 0.9252533  0.9330993  0.9293005  0.9106064
+ 0.9244374  0.92636985 0.93019336 0.89123654 0.90450656 0.934556  ]
+2025-04-04 12:29:48,170 - __main__ - ERROR - Error fetching data from SerpAPI: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google&q=Hello+there&api_key=your_serpapi_key_here
+2025-04-04 12:29:48,262 - __main__ - INFO - Cosine Similarities: [0.8628832  0.8524975  0.8550679  0.86124426 0.82177085 0.8393342
+ 0.82664615 0.8569633  0.84427905 0.871085   0.8454954  0.8534539
+ 0.826012   0.82627153 0.8418182  0.8321708  0.83173794 0.82851565
+ 0.83479965 0.8275054  0.833692   0.8177457  0.820542   0.8379486
+ 0.8429691  0.8458056  0.81629944 0.81636316 0.84906346 0.8094766 ]
+2025-04-04 12:29:48,323 - __main__ - INFO - Cosine Similarities: [0.85355246 0.8525846  0.8629996  0.8723764  0.84180754 0.8530269
+ 0.8463597  0.87341905 0.8775021  0.88151777 0.87424856 0.8719416
+ 0.8273159  0.843245   0.8450831  0.8486585  0.8399215  0.8368224
+ 0.8336892  0.83908105 0.83628684 0.833133   0.8249183  0.8552048
+ 0.8558195  0.8566599  0.8267961  0.8410779  0.87148595 0.8158915 ]
+2025-04-04 12:33:38,068 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 12:33:39,435 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 12:33:39,435 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 12:33:40,129 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 12:33:40,129 - __main__ - INFO - Loading word embeddings...
+2025-04-04 12:33:40,131 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 12:33:40,306 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 12:33:42,599 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T12:33:42.575266', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 12:33:42,599 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 12:33:42,599 - __main__ - INFO - Loading DistilBERT model...
+2025-04-04 12:33:45,412 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-04 12:33:45,506 - __main__ - INFO - Cosine Similarities: [0.9105947  0.9376443  0.9226737  0.922472   0.9023012  0.9041103
+ 0.9095226  0.88136405 0.8945366  0.9038421  0.9185256  0.90582746
+ 0.92134464 0.9284087  0.92286503 0.90012765 0.9248296  0.9157264
+ 0.92688763 0.92179644 0.9252533  0.9330993  0.9293005  0.9106064
+ 0.9244374  0.92636985 0.93019336 0.89123654 0.90450656 0.934556  ]
+2025-04-04 12:33:47,440 - __main__ - INFO - Cosine Similarities: [0.8628832  0.8524975  0.8550679  0.86124426 0.82177085 0.8393342
+ 0.82664615 0.8569633  0.84427905 0.871085   0.8454954  0.8534539
+ 0.826012   0.82627153 0.8418182  0.8321708  0.83173794 0.82851565
+ 0.83479965 0.8275054  0.833692   0.8177457  0.820542   0.8379486
+ 0.8429691  0.8458056  0.81629944 0.81636316 0.84906346 0.8094766 ]
+2025-04-04 12:33:47,489 - __main__ - INFO - Cosine Similarities: [0.85355246 0.8525846  0.8629996  0.8723764  0.84180754 0.8530269
+ 0.8463597  0.87341905 0.8775021  0.88151777 0.87424856 0.8719416
+ 0.8273159  0.843245   0.8450831  0.8486585  0.8399215  0.8368224
+ 0.8336892  0.83908105 0.83628684 0.833133   0.8249183  0.8552048
+ 0.8558195  0.8566599  0.8267961  0.8410779  0.87148595 0.8158915 ]
+2025-04-04 12:39:06,466 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 12:39:07,941 - __main__ - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 12:39:07,941 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 12:39:08,533 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 12:39:08,535 - __main__ - INFO - Loading word embeddings...
+2025-04-04 12:39:08,535 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 12:39:08,703 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 12:39:10,841 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T12:39:10.817094', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 12:39:10,841 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 12:39:10,843 - __main__ - INFO - Loading DistilBERT model...
+2025-04-04 12:39:14,334 - __main__ - INFO - DistilBERT model loaded successfully.
+2025-04-04 12:39:14,404 - __main__ - INFO - Cosine Similarities: [0.9105947  0.9376443  0.9226737  0.922472   0.9023012  0.9041103
+ 0.9095226  0.88136405 0.8945366  0.9038421  0.9185256  0.90582746
+ 0.92134464 0.9284087  0.92286503 0.90012765 0.9248296  0.9157264
+ 0.92688763 0.92179644 0.9252533  0.9330993  0.9293005  0.9106064
+ 0.9244374  0.92636985 0.93019336 0.89123654 0.90450656 0.934556  ]
+2025-04-04 12:39:14,918 - __main__ - INFO - Cosine Similarities: [0.8628832  0.8524975  0.8550679  0.86124426 0.82177085 0.8393342
+ 0.82664615 0.8569633  0.84427905 0.871085   0.8454954  0.8534539
+ 0.826012   0.82627153 0.8418182  0.8321708  0.83173794 0.82851565
+ 0.83479965 0.8275054  0.833692   0.8177457  0.820542   0.8379486
+ 0.8429691  0.8458056  0.81629944 0.81636316 0.84906346 0.8094766 ]
+2025-04-04 12:39:15,001 - __main__ - INFO - Cosine Similarities: [0.85355246 0.8525846  0.8629996  0.8723764  0.84180754 0.8530269
+ 0.8463597  0.87341905 0.8775021  0.88151777 0.87424856 0.8719416
+ 0.8273159  0.843245   0.8450831  0.8486585  0.8399215  0.8368224
+ 0.8336892  0.83908105 0.83628684 0.833133   0.8249183  0.8552048
+ 0.8558195  0.8566599  0.8267961  0.8410779  0.87148595 0.8158915 ]
+2025-04-04 12:39:15,085 - __main__ - INFO - Cosine Similarities: [0.8675882  0.8543587  0.8710706  0.87557334 0.83212614 0.8425093
+ 0.8376966  0.8721299  0.8581438  0.8824058  0.85011256 0.861846
+ 0.8335823  0.835157   0.83713496 0.83694756 0.8291545  0.82997644
+ 0.8218715  0.8165381  0.8308811  0.8368989  0.8226409  0.8434569
+ 0.84416866 0.84623116 0.8190913  0.8211485  0.86095333 0.8127326 ]
+2025-04-04 12:39:15,157 - __main__ - INFO - Cosine Similarities: [0.901451   0.90125114 0.90843254 0.91212404 0.8735679  0.888025
+ 0.8787625  0.89474857 0.88544124 0.9058079  0.8853997  0.91799927
+ 0.8728449  0.8790984  0.8958557  0.88623905 0.88677084 0.87818855
+ 0.87098575 0.8720192  0.8834702  0.8741601  0.8723272  0.8953695
+ 0.8990847  0.8988543  0.87198454 0.8683202  0.8975999  0.8633748 ]
+2025-04-04 12:41:56,819 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 12:41:58,115 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 12:41:58,115 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 12:41:58,727 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 12:41:58,727 - chatbot - INFO - Loading word embeddings...
+2025-04-04 12:41:58,727 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 12:41:58,887 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 12:42:00,779 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T12:42:00.753636', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 12:42:00,779 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 12:42:00,779 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 12:42:03,688 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 12:42:06,827 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 12:42:06,830 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 12:42:10,063 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:42:10] "GET / HTTP/1.1" 200 -
+2025-04-04 12:42:10,097 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:42:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 12:42:10,333 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:42:10] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 12:42:10,422 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:42:10] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 12:42:16,478 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 12:42:16] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 12:42:24,377 - chatbot - INFO - Cosine Similarities: [0.88891846 0.88996154 0.8953918  0.8986661  0.8475451  0.8628357
+ 0.855046   0.8819461  0.8694551  0.8922682  0.86675924 0.89688826
+ 0.85042834 0.85437346 0.87477666 0.86478704 0.8667946  0.84837276
+ 0.8482537  0.84753656 0.8639393  0.8548564  0.841936   0.86926126
+ 0.8836988  0.8888889  0.8476572  0.8426499  0.8788432  0.83552074]
+2025-04-04 12:42:55,815 - chatbot - INFO - Cosine Similarities: [0.89640844 0.8975899  0.9001572  0.9060459  0.8633652  0.8733518
+ 0.8684425  0.8866242  0.8792652  0.8989301  0.8792486  0.89875805
+ 0.8735316  0.8743088  0.8994677  0.87592727 0.8791344  0.8732919
+ 0.8724953  0.866677   0.8739003  0.866138   0.86618155 0.8829818
+ 0.8909695  0.89068896 0.86226416 0.85969913 0.88977873 0.86082184]
+2025-04-04 12:43:52,014 - chatbot - INFO - Cosine Similarities: [0.9044956  0.9087583  0.9108093  0.9107113  0.86648154 0.8759392
+ 0.87081385 0.8873704  0.88080627 0.8982576  0.8811849  0.90583104
+ 0.87314695 0.87766135 0.90446085 0.8812039  0.8883958  0.87634563
+ 0.87838066 0.8736373  0.8820777  0.8720267  0.87111944 0.8870717
+ 0.9004015  0.9002683  0.8694873  0.8621399  0.8915556  0.86463475]
+2025-04-04 12:44:27,841 - chatbot - INFO - Cosine Similarities: [0.90200895 0.9098655  0.9107109  0.91423863 0.8705783  0.88078624
+ 0.8765775  0.8898668  0.88595605 0.9066601  0.89185494 0.90720785
+ 0.8818087  0.8885137  0.91156304 0.88133925 0.89251685 0.8816538
+ 0.8851031  0.87905777 0.8875526  0.8796135  0.8780441  0.8900213
+ 0.9052733  0.90564984 0.87508106 0.864022   0.89557624 0.87569374]
+2025-04-04 12:44:51,340 - chatbot - INFO - Cosine Similarities: [0.86262316 0.84571594 0.8495953  0.8550602  0.81472194 0.826481
+ 0.8199505  0.8451018  0.8344801  0.85538715 0.82997274 0.8537106
+ 0.82863355 0.8240762  0.8326711  0.82687557 0.82631075 0.83386123
+ 0.84403265 0.82073057 0.82561547 0.8225453  0.81960154 0.8339374
+ 0.8362306  0.83693784 0.81170475 0.81494516 0.84185535 0.8076627 ]
+2025-04-04 13:23:04,485 - chatbot - INFO - Loading data from SQLite database at C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\database\rbu_database.db
+2025-04-04 13:23:04,501 - chatbot - INFO - Data loaded successfully from SQLite database
+2025-04-04 13:23:05,735 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 13:23:05,735 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 13:23:06,286 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 13:23:06,286 - chatbot - INFO - Loading word embeddings...
+2025-04-04 13:23:06,286 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 13:23:06,429 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 13:23:07,313 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T13:23:07.286147', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 13:23:07,315 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 13:23:07,315 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 13:23:10,370 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 13:23:13,653 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 13:23:13,655 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 13:23:16,637 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:23:16] "GET / HTTP/1.1" 200 -
+2025-04-04 13:23:16,688 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:23:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 13:23:16,899 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:23:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 13:23:16,993 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:23:16] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 13:23:18,846 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:23:18] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 13:23:27,896 - chatbot - INFO - Cosine Similarities: [0.8976059  0.9001877  0.91194123 0.9152223  0.87680244 0.89296144
+ 0.8851644  0.897935   0.8869996  0.90773606 0.8822146  0.8994058
+ 0.8692499  0.8852662  0.89226013 0.8787489  0.8868919  0.88685215
+ 0.8753404  0.8620986  0.8912779  0.86199737 0.88198173 0.8877895
+ 0.8919153  0.8947592  0.86855906 0.8627741  0.8943025  0.86225307
+ 0.8518147  0.8607938  0.8480282  0.87692016 0.89255637 0.9000705
+ 0.8911981 ]
+2025-04-04 13:23:59,288 - chatbot - INFO - Cosine Similarities: [0.9288963  0.91543776 0.919677   0.9169939  0.8664244  0.880876
+ 0.87990886 0.8823549  0.87672865 0.90197635 0.885044   0.90188944
+ 0.8746656  0.8803451  0.8831227  0.871428   0.88172287 0.8753276
+ 0.8808918  0.8762714  0.8859847  0.8717234  0.8737023  0.87807274
+ 0.88907665 0.89372075 0.86779463 0.85709435 0.893035   0.86021304
+ 0.86513674 0.88496244 0.86403495 0.86944866 0.8823575  0.8887724
+ 0.8788755 ]
+2025-04-04 13:24:15,213 - chatbot - INFO - Cosine Similarities: [0.85149467 0.8333863  0.8466647  0.857818   0.81420857 0.834485
+ 0.81961286 0.85547054 0.83967024 0.8696263  0.83135915 0.8480932
+ 0.8019588  0.81229323 0.81675386 0.81747085 0.8151917  0.80838835
+ 0.8005419  0.7982893  0.81673706 0.796202   0.79448783 0.8168729
+ 0.82782435 0.8316294  0.793105   0.8020946  0.8385668  0.77906084
+ 0.7690228  0.7861536  0.76880276 0.7968197  0.83136344 0.84367126
+ 0.83197874]
+2025-04-04 13:24:59,297 - chatbot - INFO - Cosine Similarities: [0.8758614  0.87267005 0.86890596 0.8825824  0.8425095  0.85294545
+ 0.84927094 0.8637625  0.855676   0.8790739  0.8588171  0.8763083
+ 0.8472662  0.8592518  0.8599595  0.8534911  0.85456836 0.8590143
+ 0.85828763 0.8463398  0.8539749  0.8555529  0.84957266 0.8604369
+ 0.8689666  0.8662389  0.8352388  0.8387531  0.86585486 0.83413243
+ 0.83043736 0.837271   0.82747555 0.83515704 0.8548585  0.86077094
+ 0.8540794 ]
+2025-04-04 13:25:35,628 - chatbot - INFO - Cosine Similarities: [0.89640844 0.8975899  0.9001572  0.9060459  0.8633652  0.8733518
+ 0.8684425  0.8866242  0.87926525 0.89892995 0.8792486  0.89875805
+ 0.8735316  0.8743088  0.8994677  0.87592727 0.8791344  0.8732919
+ 0.87249523 0.866677   0.8739003  0.86613786 0.86618155 0.8829818
+ 0.8909695  0.89068896 0.86226416 0.85969925 0.8897786  0.8608217
+ 0.84934235 0.8583394  0.8479915  0.86130315 0.8772416  0.8808859
+ 0.8733359 ]
+2025-04-04 13:31:04,118 - chatbot - INFO - SQLite database found at C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\database\rbu_database.db
+2025-04-04 13:31:04,128 - chatbot - INFO - Data loaded successfully from SQLite database
+2025-04-04 13:31:04,129 - chatbot - ERROR - Error loading data from SQLite database: 'RBUChatbot' object has no attribute 'college_info'
+2025-04-04 13:31:04,130 - chatbot - INFO - Falling back to JSON file
+2025-04-04 13:31:04,133 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 13:31:05,417 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 13:31:05,423 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 13:31:06,177 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 13:31:06,178 - chatbot - INFO - Loading word embeddings...
+2025-04-04 13:31:06,178 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 13:31:06,379 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 13:31:07,326 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T13:31:07.300712', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 13:31:07,326 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 13:31:07,326 - chatbot - INFO - Loading DistilBERT model...
+2025-04-04 13:31:10,545 - chatbot - INFO - DistilBERT model loaded successfully.
+2025-04-04 13:31:13,701 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 13:31:13,703 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 13:31:16,624 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:31:16] "GET / HTTP/1.1" 200 -
+2025-04-04 13:31:16,678 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:31:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 13:31:16,862 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:31:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 13:31:16,994 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:31:16] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 13:31:18,852 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:31:18] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 13:31:26,397 - chatbot - INFO - Cosine Similarities: [0.8942586  0.88393366 0.88347673 0.89005244 0.8494962  0.86269206
+ 0.8559159  0.8746322  0.87005734 0.88762766 0.8707794  0.8746016
+ 0.8655483  0.85970473 0.8624602  0.8601005  0.86326516 0.8522229
+ 0.8519331  0.854771   0.86193454 0.8640951  0.84884846 0.855538
+ 0.86776686 0.86870944 0.8497151  0.8468606  0.8735527  0.838187  ]
+2025-04-04 13:31:34,146 - chatbot - INFO - Cosine Similarities: [0.8732724  0.86630654 0.8721099  0.877237   0.82605165 0.84417516
+ 0.82993674 0.8626084  0.8496952  0.87261    0.8438386  0.88367176
+ 0.8244853  0.82945997 0.85391325 0.843603   0.842561   0.8309949
+ 0.8237963  0.8249643  0.83899444 0.8219891  0.8201612  0.8517169
+ 0.8602848  0.86283934 0.81999856 0.82333773 0.85746056 0.8107063 ]
+2025-04-04 13:32:09,457 - chatbot - INFO - Cosine Similarities: [0.86262316 0.84571594 0.8495953  0.8550602  0.81472194 0.826481
+ 0.8199505  0.8451018  0.8344801  0.85538715 0.82997274 0.8537106
+ 0.82863355 0.8240762  0.8326711  0.82687557 0.82631075 0.83386123
+ 0.84403265 0.82073057 0.82561547 0.8225453  0.81960154 0.8339374
+ 0.8362306  0.83693784 0.81170475 0.81494516 0.84185535 0.8076627 ]
+2025-04-04 14:54:35,782 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 14:54:35,787 - __main__ - ERROR - Error preparing TF-IDF data: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 14:54:35,799 - __main__ - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 14:54:35,799 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 14:56:03,620 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 14:56:04,336 - __main__ - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 14:56:04,338 - __main__ - ERROR - Error in TF-IDF response: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 14:56:04,418 - __main__ - ERROR - Error in TF-IDF response: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 14:56:04,475 - __main__ - ERROR - Error in TF-IDF response: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 14:56:04,538 - __main__ - ERROR - Error in TF-IDF response: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 14:56:04,610 - __main__ - ERROR - Error in TF-IDF response: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 14:56:04,665 - __main__ - ERROR - Error in TF-IDF response: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 15:16:41,199 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 15:16:41,205 - __main__ - ERROR - Error preparing TF-IDF data: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 15:16:41,223 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 15:16:42,520 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 15:16:42,521 - __main__ - INFO - Loading word embeddings...
+2025-04-04 15:16:42,523 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 15:16:42,839 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 15:16:45,789 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T15:16:45.629222', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 15:16:45,790 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 15:16:45,790 - __main__ - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 15:16:45,791 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 15:16:47,531 - __main__ - ERROR - Error loading SentenceTransformer model: The paging file is too small for this operation to complete. (os error 1455)
+2025-04-04 15:25:09,992 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 15:25:10,070 - __main__ - ERROR - Error preparing TF-IDF data: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 15:25:10,180 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 15:25:12,297 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 15:25:12,299 - __main__ - INFO - Loading word embeddings...
+2025-04-04 15:25:12,299 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 15:25:12,625 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 15:25:16,576 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T15:25:16.171198', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 15:25:16,577 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 15:25:16,577 - __main__ - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 15:25:16,577 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 15:25:18,733 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 15:25:19,333 - __main__ - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 15:28:28,605 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 15:28:28,620 - __main__ - ERROR - Error preparing TF-IDF data: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 15:28:28,633 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 15:28:29,304 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 15:28:29,304 - __main__ - INFO - Loading word embeddings...
+2025-04-04 15:28:29,306 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 15:28:29,448 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 15:28:33,215 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T15:28:33.197223', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 15:28:33,216 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 15:28:33,216 - __main__ - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 15:28:33,216 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 15:28:35,063 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 15:28:35,638 - __main__ - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 15:33:35,060 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 15:33:35,065 - __main__ - ERROR - Error preparing TF-IDF data: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 15:33:35,075 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 15:33:35,576 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 15:33:35,576 - __main__ - INFO - Loading word embeddings...
+2025-04-04 15:33:35,576 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 15:33:35,716 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 15:33:37,566 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T15:33:37.549852', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 15:33:37,568 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 15:33:37,568 - __main__ - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 15:33:37,568 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 15:33:39,006 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 15:33:39,443 - __main__ - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 15:49:48,685 - __main__ - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 15:49:48,694 - __main__ - ERROR - Error preparing TF-IDF data: 'RBUChatbot' object has no attribute 'ner_available'
+2025-04-04 15:49:48,709 - __main__ - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 15:49:49,381 - __main__ - INFO - SpaCy model loaded successfully.
+2025-04-04 15:49:49,381 - __main__ - INFO - Loading word embeddings...
+2025-04-04 15:49:49,381 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 15:49:49,518 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 15:49:51,635 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T15:49:51.609518', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 15:49:51,635 - __main__ - INFO - Word embeddings loaded successfully.
+2025-04-04 15:49:51,635 - __main__ - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 15:49:51,637 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 15:49:53,331 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 15:49:53,767 - __main__ - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 15:59:43,258 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 15:59:43,260 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 15:59:43,820 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 15:59:44,023 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 15:59:44,023 - chatbot - INFO - Loading word embeddings...
+2025-04-04 15:59:44,023 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 15:59:44,209 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 15:59:45,967 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T15:59:45.921859', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 15:59:45,967 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 15:59:45,967 - chatbot - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 15:59:45,967 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 15:59:48,085 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 15:59:48,852 - chatbot - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 15:59:52,200 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 15:59:52,204 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 15:59:55,523 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:59:55] "GET / HTTP/1.1" 200 -
+2025-04-04 15:59:55,580 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:59:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 15:59:55,707 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:59:55] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 15:59:55,947 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 15:59:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 16:08:30,414 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 16:08:30,419 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 16:08:30,983 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 16:08:31,175 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 16:08:31,178 - chatbot - INFO - Loading word embeddings...
+2025-04-04 16:08:31,178 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 16:08:31,341 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 16:08:32,318 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T16:08:32.156801', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 16:08:32,320 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 16:08:32,320 - chatbot - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 16:08:32,320 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 16:08:33,822 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 16:08:34,292 - chatbot - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 16:08:37,430 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 16:08:37,433 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 16:08:40,572 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:08:40] "GET / HTTP/1.1" 200 -
+2025-04-04 16:08:40,593 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:08:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 16:08:40,829 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:08:40] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 16:08:40,914 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:08:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 16:08:45,721 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:08:45] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 16:15:07,895 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 16:15:07,901 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 16:15:08,408 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 16:15:08,589 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 16:15:08,590 - chatbot - INFO - Loading word embeddings...
+2025-04-04 16:15:08,590 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 16:15:08,743 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 16:15:09,611 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T16:15:09.567751', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 16:15:09,611 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 16:15:09,611 - chatbot - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 16:15:09,611 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 16:15:11,307 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 16:15:12,164 - chatbot - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 16:15:15,288 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 16:15:15,291 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 16:15:18,187 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:15:18] "GET / HTTP/1.1" 200 -
+2025-04-04 16:15:18,215 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:15:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 16:15:18,442 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:15:18] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 16:15:18,543 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:15:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 16:15:19,809 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 16:15:19] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 18:40:57,782 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-04 18:40:57,782 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-04 18:40:59,048 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-04 18:40:59,456 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-04 18:40:59,459 - chatbot - INFO - Loading word embeddings...
+2025-04-04 18:40:59,460 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-04 18:40:59,754 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-04 18:41:00,910 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-04T18:41:00.883203', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-04 18:41:00,913 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-04 18:41:00,913 - chatbot - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-04 18:41:00,913 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-04 18:41:03,371 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-04 18:41:04,261 - chatbot - INFO - SentenceTransformer model loaded successfully.
+2025-04-04 18:41:07,438 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-04 18:41:07,443 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-04 18:41:10,870 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:41:10] "GET / HTTP/1.1" 200 -
+2025-04-04 18:41:10,921 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:41:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 18:41:11,065 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:41:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 18:41:11,235 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:41:11] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-04 18:41:15,920 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:41:15] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-04 18:57:05,178 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:57:05] "GET / HTTP/1.1" 200 -
+2025-04-04 18:57:05,260 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:57:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-04 18:57:05,411 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:57:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-04 18:57:05,587 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 18:57:05] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-05 02:15:12,464 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-05 02:15:12,482 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-05 02:15:13,205 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-05 02:15:13,429 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-05 02:15:13,429 - chatbot - INFO - Loading word embeddings...
+2025-04-05 02:15:13,429 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-05 02:15:13,583 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-05 02:15:15,728 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-05T02:15:15.680351', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-05 02:15:15,730 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-05 02:15:15,730 - chatbot - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-05 02:15:15,730 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-05 02:15:17,668 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-05 02:15:18,139 - chatbot - INFO - SentenceTransformer model loaded successfully.
+2025-04-05 02:15:21,234 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-05 02:15:21,237 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-05 02:15:24,806 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 02:15:24] "GET / HTTP/1.1" 200 -
+2025-04-05 02:15:24,889 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 02:15:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 02:15:25,006 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 02:15:25] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-05 02:15:25,255 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 02:15:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-05 02:15:27,005 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 02:15:27] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-05 02:29:45,416 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 02:29:45] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-05 10:19:32,388 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-05 10:19:32,403 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-05 10:19:33,277 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-05 10:19:33,480 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-05 10:19:33,481 - chatbot - INFO - Loading word embeddings...
+2025-04-05 10:19:33,481 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-05 10:19:33,665 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-05 10:19:35,204 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-05T10:19:35.166956', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-05 10:19:35,204 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-05 10:19:35,204 - chatbot - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-05 10:19:35,204 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-05 10:19:36,851 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-05 10:19:37,354 - chatbot - INFO - SentenceTransformer model loaded successfully.
+2025-04-05 10:19:40,500 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-05 10:19:40,500 - werkzeug - INFO -  * Running on http://192.168.8.29:5000/ (Press CTRL+C to quit)
+2025-04-05 10:19:43,748 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:19:43] "GET / HTTP/1.1" 200 -
+2025-04-05 10:19:43,832 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:19:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 10:19:44,000 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:19:44] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-05 10:19:44,182 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:19:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-05 10:20:11,754 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:20:11] "[32mGET /gradio HTTP/1.1[0m" 302 -
+2025-04-06 12:39:23,296 - chatbot - INFO - Data loaded successfully from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\data\college_data.json
+2025-04-06 12:39:23,322 - chatbot - INFO - Loading SpaCy model for entity recognition...
+2025-04-06 12:39:24,681 - chatbot - INFO - SpaCy model loaded successfully.
+2025-04-06 12:39:25,225 - chatbot - INFO - TF-IDF vectorizer and matrix prepared successfully.
+2025-04-06 12:39:25,225 - chatbot - INFO - Loading word embeddings...
+2025-04-06 12:39:25,225 - gensim.utils - INFO - loading KeyedVectors object from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin
+2025-04-06 12:39:25,532 - gensim.utils - INFO - loading vectors from C:\Users\HP\Desktop\New_RBU\RBU_AI_Assistant\models\word_vectors.bin.vectors.npy with mmap=None
+2025-04-06 12:39:26,878 - gensim.utils - INFO - KeyedVectors lifecycle event {'fname': 'C:\\Users\\HP\\Desktop\\New_RBU\\RBU_AI_Assistant\\models\\word_vectors.bin', 'datetime': '2025-04-06T12:39:26.826183', 'gensim': '4.3.3', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'loaded'}
+2025-04-06 12:39:26,878 - chatbot - INFO - Word embeddings loaded successfully.
+2025-04-06 12:39:26,878 - chatbot - INFO - Loading SentenceTransformer model for semantic matching...
+2025-04-06 12:39:26,879 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-stsb-mean-tokens
+2025-04-06 12:39:29,386 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-04-06 12:39:30,120 - chatbot - INFO - SentenceTransformer model loaded successfully.
+2025-04-06 12:39:33,249 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-06 12:39:33,252 - werkzeug - INFO -  * Running on http://192.168.234.29:5000/ (Press CTRL+C to quit)
+2025-04-06 12:39:37,277 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 12:39:37] "GET / HTTP/1.1" 200 -
+2025-04-06 12:39:37,329 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 12:39:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-06 12:39:37,560 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 12:39:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-06 12:39:37,704 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 12:39:37] "[33mGET /static/img/chat-bot.png HTTP/1.1[0m" 404 -
+2025-04-06 12:40:32,597 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 12:40:32] "[32mGET /gradio HTTP/1.1[0m" 302 -
